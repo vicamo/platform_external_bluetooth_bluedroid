@@ -179,9 +179,12 @@ int btif_config_exist(const char* section, const char* key, const char* name)
 int btif_config_get(const char* section, const char* key, const char* name, char* value, int* bytes, int* type)
 {
     int ret = FALSE;
-    asrt(section && *section && key && *key && name && *name && bytes && type);
-    //debug("section:%s, key:%s, name:%s, value:%p, bytes:%d, type:%d",
-    //            section, key, name, value, *bytes, *type);
+    BTIF_TRACE_DEBUG6("section:%s, key:%s, name:%s, value:%p, bytes:%d, type:%d",
+                      section, key, name, value, *bytes, *type);
+    asrt(section && *section);
+    asrt(key && *key);
+    asrt(name && *name);
+    asrt(bytes && type);
     if(section && *section && key && *key && name && *name && bytes && type)
     {
         lock_slot(&slot_lock);

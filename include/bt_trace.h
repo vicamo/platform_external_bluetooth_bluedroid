@@ -295,149 +295,149 @@ EXPORT_API extern void BTTRC_StackTrace6(tBTTRC_LAYER_ID layer_id,
 // btla-specific ++
 /* Core Stack default trace levels */
 #ifndef HCI_INITIAL_TRACE_LEVEL
-#define HCI_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define HCI_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef BTM_INITIAL_TRACE_LEVEL
-#define BTM_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define BTM_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef L2CAP_INITIAL_TRACE_LEVEL
-#define L2CAP_INITIAL_TRACE_LEVEL           BT_TRACE_LEVEL_WARNING
+#define L2CAP_INITIAL_TRACE_LEVEL           BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef LLCP_INITIAL_TRACE_LEVEL
-#define LLCP_INITIAL_TRACE_LEVEL            BT_TRACE_LEVEL_WARNING
+#define LLCP_INITIAL_TRACE_LEVEL            BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef AMP_INITIAL_TRACE_LEVEL
-#define AMP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define AMP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef RFCOMM_INITIAL_TRACE_LEVEL
-#define RFCOMM_INITIAL_TRACE_LEVEL          BT_TRACE_LEVEL_WARNING
+#define RFCOMM_INITIAL_TRACE_LEVEL          BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef OBX_INITIAL_TRACE_LEVEL
-#define OBX_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define OBX_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef SDP_INITIAL_TRACE_LEVEL
-#define SDP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define SDP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef TCS_INITIAL_TRACE_LEVEL
-#define TCS_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define TCS_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 /* Profile default trace levels */
 #ifndef DUN_INITIAL_TRACE_LEVEL
-#define DUN_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define DUN_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef GAP_INITIAL_TRACE_LEVEL
-#define GAP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define GAP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef GOEP_INITIAL_TRACE_LEVEL
-#define GOEP_INITIAL_TRACE_LEVEL            BT_TRACE_LEVEL_WARNING
+#define GOEP_INITIAL_TRACE_LEVEL            BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef HSP2_INITIAL_TRACE_LEVEL
-#define HSP2_INITIAL_TRACE_LEVEL            BT_TRACE_LEVEL_WARNING
+#define HSP2_INITIAL_TRACE_LEVEL            BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef SPP_INITIAL_TRACE_LEVEL
-#define SPP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define SPP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef ICP_INITIAL_TRACE_LEVEL
-#define ICP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define ICP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef CTP_INITIAL_TRACE_LEVEL
-#define CTP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define CTP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef HCRP_INITIAL_TRACE_LEVEL
-#define HCRP_INITIAL_TRACE_LEVEL            BT_TRACE_LEVEL_WARNING
+#define HCRP_INITIAL_TRACE_LEVEL            BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef HCRPM_INITIAL_TRACE_LEVEL
-#define HCRPM_INITIAL_TRACE_LEVEL           BT_TRACE_LEVEL_WARNING
+#define HCRPM_INITIAL_TRACE_LEVEL           BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef BPP_INITIAL_TRACE_LEVEL
-#define BPP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define BPP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef BIP_INITIAL_TRACE_LEVEL
-#define BIP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define BIP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef BNEP_INITIAL_TRACE_LEVEL
-#define BNEP_INITIAL_TRACE_LEVEL            BT_TRACE_LEVEL_WARNING
+#define BNEP_INITIAL_TRACE_LEVEL            BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef PAN_INITIAL_TRACE_LEVEL
-#define PAN_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define PAN_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef SAP_INITIAL_TRACE_LEVEL
-#define SAP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define SAP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef FTP_INITIAL_TRACE_LEVEL
-#define FTP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define FTP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef OPP_INITIAL_TRACE_LEVEL
-#define OPP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define OPP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef HFP_INITIAL_TRACE_LEVEL
-#define HFP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define HFP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef PAP_INITIAL_TRACE_LEVEL
-#define PAP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define PAP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef A2D_INITIAL_TRACE_LEVEL
-#define A2D_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define A2D_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef VDP_INITIAL_TRACE_LEVEL
-#define VDP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define VDP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef AVDT_INITIAL_TRACE_LEVEL
-#define AVDT_INITIAL_TRACE_LEVEL            BT_TRACE_LEVEL_WARNING
+#define AVDT_INITIAL_TRACE_LEVEL            BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef AVCT_INITIAL_TRACE_LEVEL
-#define AVCT_INITIAL_TRACE_LEVEL            BT_TRACE_LEVEL_WARNING
+#define AVCT_INITIAL_TRACE_LEVEL            BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef AVRC_INITIAL_TRACE_LEVEL
-#define AVRC_INITIAL_TRACE_LEVEL            BT_TRACE_LEVEL_WARNING
+#define AVRC_INITIAL_TRACE_LEVEL            BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef MCA_INITIAL_TRACE_LEVEL
-#define MCA_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define MCA_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef HID_INITIAL_TRACE_LEVEL
-#define HID_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define HID_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 /* Application and other default trace levels */
 #ifndef RPC_INITIAL_TRACE_LEVEL
-#define RPC_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define RPC_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef APPL_INITIAL_TRACE_LEVEL
-#define APPL_INITIAL_TRACE_LEVEL            BT_TRACE_LEVEL_WARNING
+#define APPL_INITIAL_TRACE_LEVEL            BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef BT_TRACE_APPL
@@ -445,15 +445,15 @@ EXPORT_API extern void BTTRC_StackTrace6(tBTTRC_LAYER_ID layer_id,
 #endif
 
 #ifndef NFC_INITIAL_TRACE_LEVEL
-#define NFC_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define NFC_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef GATT_INITIAL_TRACE_LEVEL
-#define GATT_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define GATT_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef SMP_INITIAL_TRACE_LEVEL
-#define SMP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_WARNING
+#define SMP_INITIAL_TRACE_LEVEL             BT_TRACE_LEVEL_DEBUG
 #endif
 // btla-specific --
 
@@ -4444,93 +4444,93 @@ EXPORT_API extern void BTTRC_StackTrace6(tBTTRC_LAYER_ID layer_id,
 
 #endif
 
-#if (BT_TRACE_BTIF == TRUE)
+#if 1
 
 extern UINT8 btif_trace_level;
 
 /* define traces for application */
-#define BTIF_TRACE_ERROR0(m)                    {if (btif_trace_level >= BT_TRACE_LEVEL_ERROR) LogMsg_0(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_ERROR, (m));}
-#define BTIF_TRACE_ERROR1(m,p1)                 {if (btif_trace_level >= BT_TRACE_LEVEL_ERROR) LogMsg_1(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_ERROR, \
+#define BTIF_TRACE_ERROR0(m)                    {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_ERROR) LogMsg_0(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_ERROR, (m));}
+#define BTIF_TRACE_ERROR1(m,p1)                 {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_ERROR) LogMsg_1(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_ERROR, \
                                                         (m), (UINT32)(p1));}
-#define BTIF_TRACE_ERROR2(m,p1,p2)              {if (btif_trace_level >= BT_TRACE_LEVEL_ERROR) LogMsg_2(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_ERROR, \
+#define BTIF_TRACE_ERROR2(m,p1,p2)              {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_ERROR) LogMsg_2(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_ERROR, \
                                                         (m), (UINT32)(p1), (UINT32)(p2));}
-#define BTIF_TRACE_ERROR3(m,p1,p2,p3)           {if (btif_trace_level >= BT_TRACE_LEVEL_ERROR) LogMsg_3(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_ERROR, \
+#define BTIF_TRACE_ERROR3(m,p1,p2,p3)           {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_ERROR) LogMsg_3(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_ERROR, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3));}
-#define BTIF_TRACE_ERROR4(m,p1,p2,p3,p4)        {if (btif_trace_level >= BT_TRACE_LEVEL_ERROR) LogMsg_4(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_ERROR, \
+#define BTIF_TRACE_ERROR4(m,p1,p2,p3,p4)        {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_ERROR) LogMsg_4(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_ERROR, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3), (UINT32)(p4));}
-#define BTIF_TRACE_ERROR5(m,p1,p2,p3,p4,p5)     {if (btif_trace_level >= BT_TRACE_LEVEL_ERROR) LogMsg_5(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_ERROR, \
+#define BTIF_TRACE_ERROR5(m,p1,p2,p3,p4,p5)     {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_ERROR) LogMsg_5(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_ERROR, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3), (UINT32)(p4), (UINT32)(p5));}
-#define BTIF_TRACE_ERROR6(m,p1,p2,p3,p4,p5,p6)  {if (btif_trace_level >= BT_TRACE_LEVEL_ERROR) LogMsg_6(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_ERROR, \
+#define BTIF_TRACE_ERROR6(m,p1,p2,p3,p4,p5,p6)  {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_ERROR) LogMsg_6(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_ERROR, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3), (UINT32)(p4), (UINT32)(p5), (UINT32)(p6));}
 
-#define BTIF_TRACE_WARNING0(m)                  {if (btif_trace_level >= BT_TRACE_LEVEL_WARNING) LogMsg_0(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_WARNING, (m));}
-#define BTIF_TRACE_WARNING1(m,p1)               {if (btif_trace_level >= BT_TRACE_LEVEL_WARNING) LogMsg_1(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_WARNING, \
+#define BTIF_TRACE_WARNING0(m)                  {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_WARNING) LogMsg_0(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_WARNING, (m));}
+#define BTIF_TRACE_WARNING1(m,p1)               {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_WARNING) LogMsg_1(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_WARNING, \
                                                         (m), (UINT32)(p1));}
-#define BTIF_TRACE_WARNING2(m,p1,p2)            {if (btif_trace_level >= BT_TRACE_LEVEL_WARNING) LogMsg_2(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_WARNING, \
+#define BTIF_TRACE_WARNING2(m,p1,p2)            {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_WARNING) LogMsg_2(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_WARNING, \
                                                         (m), (UINT32)(p1), (UINT32)(p2));}
-#define BTIF_TRACE_WARNING3(m,p1,p2,p3)         {if (btif_trace_level >= BT_TRACE_LEVEL_WARNING) LogMsg_3(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_WARNING, \
+#define BTIF_TRACE_WARNING3(m,p1,p2,p3)         {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_WARNING) LogMsg_3(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_WARNING, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3));}
-#define BTIF_TRACE_WARNING4(m,p1,p2,p3,p4)      {if (btif_trace_level >= BT_TRACE_LEVEL_WARNING) LogMsg_4(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_WARNING, \
+#define BTIF_TRACE_WARNING4(m,p1,p2,p3,p4)      {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_WARNING) LogMsg_4(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_WARNING, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3), (UINT32)(p4));}
-#define BTIF_TRACE_WARNING5(m,p1,p2,p3,p4,p5)   {if (btif_trace_level >= BT_TRACE_LEVEL_WARNING) LogMsg_5(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_WARNING, \
+#define BTIF_TRACE_WARNING5(m,p1,p2,p3,p4,p5)   {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_WARNING) LogMsg_5(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_WARNING, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3), (UINT32)(p4), (UINT32)(p5));}
-#define BTIF_TRACE_WARNING6(m,p1,p2,p3,p4,p5,p6) {if (btif_trace_level >= BT_TRACE_LEVEL_WARNING) LogMsg_6(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_WARNING, \
+#define BTIF_TRACE_WARNING6(m,p1,p2,p3,p4,p5,p6) {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_WARNING) LogMsg_6(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_WARNING, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3), (UINT32)(p4), (UINT32)(p5), (UINT32)(p6));}
 
-#define BTIF_TRACE_API0(m)                      {if (btif_trace_level >= BT_TRACE_LEVEL_API) LogMsg_0(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_API, (m));}
-#define BTIF_TRACE_API1(m,p1)                   {if (btif_trace_level >= BT_TRACE_LEVEL_API) LogMsg_1(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_API, \
+#define BTIF_TRACE_API0(m)                      {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_API) LogMsg_0(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_API, (m));}
+#define BTIF_TRACE_API1(m,p1)                   {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_API) LogMsg_1(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_API, \
                                                         (m), (UINT32)(p1));}
-#define BTIF_TRACE_API2(m,p1,p2)                {if (btif_trace_level >= BT_TRACE_LEVEL_API) LogMsg_2(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_API, \
+#define BTIF_TRACE_API2(m,p1,p2)                {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_API) LogMsg_2(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_API, \
                                                         (m), (UINT32)(p1), (UINT32)(p2));}
-#define BTIF_TRACE_API3(m,p1,p2,p3)             {if (btif_trace_level >= BT_TRACE_LEVEL_API) LogMsg_3(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_API, \
+#define BTIF_TRACE_API3(m,p1,p2,p3)             {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_API) LogMsg_3(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_API, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3));}
-#define BTIF_TRACE_API4(m,p1,p2,p3,p4)          {if (btif_trace_level >= BT_TRACE_LEVEL_API) LogMsg_4(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_API, \
+#define BTIF_TRACE_API4(m,p1,p2,p3,p4)          {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_API) LogMsg_4(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_API, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3), (UINT32)(p4));}
-#define BTIF_TRACE_API5(m,p1,p2,p3,p4,p5)       {if (btif_trace_level >= BT_TRACE_LEVEL_API) LogMsg_5(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_API, \
+#define BTIF_TRACE_API5(m,p1,p2,p3,p4,p5)       {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_API) LogMsg_5(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_API, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3), (UINT32)(p4), (UINT32)(p5));}
-#define BTIF_TRACE_API6(m,p1,p2,p3,p4,p5,p6)    {if (btif_trace_level >= BT_TRACE_LEVEL_API) LogMsg_6(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_API, \
+#define BTIF_TRACE_API6(m,p1,p2,p3,p4,p5,p6)    {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_API) LogMsg_6(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_API, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3), (UINT32)(p4), (UINT32)(p5), (UINT32)(p6));}
 
-#define BTIF_TRACE_EVENT0(m)                    {if (btif_trace_level >= BT_TRACE_LEVEL_EVENT) LogMsg_0(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_EVENT, (m));}
-#define BTIF_TRACE_EVENT1(m,p1)                 {if (btif_trace_level >= BT_TRACE_LEVEL_EVENT) LogMsg_1(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_EVENT, \
+#define BTIF_TRACE_EVENT0(m)                    {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_EVENT) LogMsg_0(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_EVENT, (m));}
+#define BTIF_TRACE_EVENT1(m,p1)                 {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_EVENT) LogMsg_1(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_EVENT, \
                                                         (m), (UINT32)(p1));}
-#define BTIF_TRACE_EVENT2(m,p1,p2)              {if (btif_trace_level >= BT_TRACE_LEVEL_EVENT) LogMsg_2(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_EVENT, \
+#define BTIF_TRACE_EVENT2(m,p1,p2)              {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_EVENT) LogMsg_2(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_EVENT, \
                                                         (m), (UINT32)(p1), (UINT32)(p2));}
-#define BTIF_TRACE_EVENT3(m,p1,p2,p3)           {if (btif_trace_level >= BT_TRACE_LEVEL_EVENT) LogMsg_3(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_EVENT, \
+#define BTIF_TRACE_EVENT3(m,p1,p2,p3)           {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_EVENT) LogMsg_3(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_EVENT, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3));}
-#define BTIF_TRACE_EVENT4(m,p1,p2,p3,p4)        {if (btif_trace_level >= BT_TRACE_LEVEL_EVENT) LogMsg_4(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_EVENT, \
+#define BTIF_TRACE_EVENT4(m,p1,p2,p3,p4)        {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_EVENT) LogMsg_4(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_EVENT, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3), (UINT32)(p4));}
-#define BTIF_TRACE_EVENT5(m,p1,p2,p3,p4,p5)     {if (btif_trace_level >= BT_TRACE_LEVEL_EVENT) LogMsg_5(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_EVENT, \
+#define BTIF_TRACE_EVENT5(m,p1,p2,p3,p4,p5)     {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_EVENT) LogMsg_5(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_EVENT, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3), (UINT32)(p4), (UINT32)(p5));}
-#define BTIF_TRACE_EVENT6(m,p1,p2,p3,p4,p5,p6)  {if (btif_trace_level >= BT_TRACE_LEVEL_EVENT) LogMsg_6(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_EVENT, \
+#define BTIF_TRACE_EVENT6(m,p1,p2,p3,p4,p5,p6)  {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_EVENT) LogMsg_6(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_EVENT, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3), (UINT32)(p4), (UINT32)(p5), (UINT32)(p6));}
 
-#define BTIF_TRACE_DEBUG0(m)                    {if (btif_trace_level >= BT_TRACE_LEVEL_DEBUG) LogMsg_0(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, (m));}
-#define BTIF_TRACE_DEBUG1(m,p1)                 {if (btif_trace_level >= BT_TRACE_LEVEL_DEBUG) LogMsg_1(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
+#define BTIF_TRACE_DEBUG0(m)                    {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_DEBUG) LogMsg_0(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, (m));}
+#define BTIF_TRACE_DEBUG1(m,p1)                 {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_DEBUG) LogMsg_1(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
                                                         (m), (UINT32)(p1));}
-#define BTIF_TRACE_DEBUG2(m,p1,p2)              {if (btif_trace_level >= BT_TRACE_LEVEL_DEBUG) LogMsg_2(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
+#define BTIF_TRACE_DEBUG2(m,p1,p2)              {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_DEBUG) LogMsg_2(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
                                                         (m), (UINT32)(p1), (UINT32)(p2));}
-#define BTIF_TRACE_DEBUG3(m,p1,p2,p3)           {if (btif_trace_level >= BT_TRACE_LEVEL_DEBUG) LogMsg_3(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
+#define BTIF_TRACE_DEBUG3(m,p1,p2,p3)           {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_DEBUG) LogMsg_3(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3));}
-#define BTIF_TRACE_DEBUG4(m,p1,p2,p3,p4)        {if (btif_trace_level >= BT_TRACE_LEVEL_DEBUG) LogMsg_4(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
+#define BTIF_TRACE_DEBUG4(m,p1,p2,p3,p4)        {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_DEBUG) LogMsg_4(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3), (UINT32)(p4));}
-#define BTIF_TRACE_DEBUG5(m,p1,p2,p3,p4,p5)     {if (btif_trace_level >= BT_TRACE_LEVEL_DEBUG) LogMsg_5(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
+#define BTIF_TRACE_DEBUG5(m,p1,p2,p3,p4,p5)     {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_DEBUG) LogMsg_5(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3), (UINT32)(p4), (UINT32)(p5));}
-#define BTIF_TRACE_DEBUG6(m,p1,p2,p3,p4,p5,p6)  {if (btif_trace_level >= BT_TRACE_LEVEL_DEBUG) LogMsg_6(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
+#define BTIF_TRACE_DEBUG6(m,p1,p2,p3,p4,p5,p6)  {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_DEBUG) LogMsg_6(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3), (UINT32)(p4), (UINT32)(p5), (UINT32)(p6));}
 
-#define BTIF_TRACE_VERBOSE0(m)                    {if (btif_trace_level >= BT_TRACE_LEVEL_VERBOSE) LogMsg_0(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, (m));}
-#define BTIF_TRACE_VERBOSE1(m,p1)                 {if (btif_trace_level >= BT_TRACE_LEVEL_VERBOSE) LogMsg_1(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
+#define BTIF_TRACE_VERBOSE0(m)                    {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_VERBOSE) LogMsg_0(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, (m));}
+#define BTIF_TRACE_VERBOSE1(m,p1)                 {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_VERBOSE) LogMsg_1(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
                                                         (m), (UINT32)(p1));}
-#define BTIF_TRACE_VERBOSE2(m,p1,p2)              {if (btif_trace_level >= BT_TRACE_LEVEL_VERBOSE) LogMsg_2(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
+#define BTIF_TRACE_VERBOSE2(m,p1,p2)              {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_VERBOSE) LogMsg_2(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
                                                         (m), (UINT32)(p1), (UINT32)(p2));}
-#define BTIF_TRACE_VERBOSE3(m,p1,p2,p3)           {if (btif_trace_level >= BT_TRACE_LEVEL_VERBOSE) LogMsg_3(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
+#define BTIF_TRACE_VERBOSE3(m,p1,p2,p3)           {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_VERBOSE) LogMsg_3(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3));}
-#define BTIF_TRACE_VERBOSE4(m,p1,p2,p3,p4)        {if (btif_trace_level >= BT_TRACE_LEVEL_VERBOSE) LogMsg_4(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
+#define BTIF_TRACE_VERBOSE4(m,p1,p2,p3,p4)        {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_VERBOSE) LogMsg_4(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3), (UINT32)(p4));}
-#define BTIF_TRACE_VERBOSE5(m,p1,p2,p3,p4,p5)     {if (btif_trace_level >= BT_TRACE_LEVEL_VERBOSE) LogMsg_5(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
+#define BTIF_TRACE_VERBOSE5(m,p1,p2,p3,p4,p5)     {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_VERBOSE) LogMsg_5(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3), (UINT32)(p4), (UINT32)(p5));}
-#define BTIF_TRACE_VERBOSE6(m,p1,p2,p3,p4,p5,p6)  {if (btif_trace_level >= BT_TRACE_LEVEL_VERBOSE) LogMsg_6(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
+#define BTIF_TRACE_VERBOSE6(m,p1,p2,p3,p4,p5,p6)  {if (BT_TRACE_LEVEL_DEBUG >= BT_TRACE_LEVEL_VERBOSE) LogMsg_6(TRACE_CTRL_GENERAL | TRACE_LAYER_NONE | TRACE_ORG_APPL | TRACE_TYPE_DEBUG, \
                                                         (m), (UINT32)(p1), (UINT32)(p2), (UINT32)(p3), (UINT32)(p4), (UINT32)(p5), (UINT32)(p6));}
 
 #else

@@ -177,7 +177,7 @@ const char * const bt_layer_tags[] = {
 //#include "btl_cfg.h"
 #define BTL_GLOBAL_PROP_TRC_FLAG "TRC_BTAPP"
 #ifndef DEFAULT_CONF_TRACE_LEVEL
-#define DEFAULT_CONF_TRACE_LEVEL BT_TRACE_LEVEL_WARNING
+#define DEFAULT_CONF_TRACE_LEVEL BT_TRACE_LEVEL_DEBUG
 #endif
 
 #ifndef BTE_LOG_BUF_SIZE
@@ -477,7 +477,7 @@ tBTTRC_FUNC_MAP bttrc_set_level_map[] = {
     {BTTRC_ID_BTA_ACC, BTTRC_ID_BTAPP, BTAPP_SetTraceLevel, BTL_GLOBAL_PROP_TRC_FLAG, DEFAULT_CONF_TRACE_LEVEL},
 #endif
 
-#if (BT_TRACE_BTIF == TRUE)
+#if 1
     {BTTRC_ID_BTA_ACC, BTTRC_ID_BTAPP, BTIF_SetTraceLevel, "TRC_BTIF", DEFAULT_CONF_TRACE_LEVEL},
 #endif
 
